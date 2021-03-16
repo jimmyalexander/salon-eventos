@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/salon-eventos/static/css/main.31eef40f.chunk.css",
-    "main.js": "/salon-eventos/static/js/main.5620b273.chunk.js",
-    "main.js.map": "/salon-eventos/static/js/main.5620b273.chunk.js.map",
+    "main.js": "/salon-eventos/static/js/main.c28d5fe3.chunk.js",
+    "main.js.map": "/salon-eventos/static/js/main.c28d5fe3.chunk.js.map",
     "runtime-main.js": "/salon-eventos/static/js/runtime-main.859de009.js",
     "runtime-main.js.map": "/salon-eventos/static/js/runtime-main.859de009.js.map",
     "static/js/2.ad3693e3.chunk.js": "/salon-eventos/static/js/2.ad3693e3.chunk.js",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.859de009.js",
     "static/js/2.ad3693e3.chunk.js",
     "static/css/main.31eef40f.chunk.css",
-    "static/js/main.5620b273.chunk.js"
+    "static/js/main.c28d5fe3.chunk.js"
   ]
 }
