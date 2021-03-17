@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 import "../assets/style/App.scss"
 import { Agenda } from "../components/Agenda"
 import { Layout } from "../components/Layout"
+import { NotFound } from "../components/NotFound"
 export const App = () => {
   return (
     <BrowserRouter>
@@ -13,7 +14,7 @@ export const App = () => {
           <Route exact path="/salon-eventos" component={Principal} />
           <Route exact path="/salon-eventos" component={Principal} />
           <Route exact path="/salon-eventos/agenda" component={Agenda} />
-          {/* <Route component={NotFound} /> */}
+          <Route path='*' component={NotFound} />
         </Switch>
       </Layout>
     </BrowserRouter>
