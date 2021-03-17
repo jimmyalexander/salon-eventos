@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/salon-eventos/static/css/main.5280ab8c.chunk.css",
-    "main.js": "/salon-eventos/static/js/main.55dfa2f9.chunk.js",
-    "main.js.map": "/salon-eventos/static/js/main.55dfa2f9.chunk.js.map",
+    "main.css": "/salon-eventos/static/css/main.45a542e1.chunk.css",
+    "main.js": "/salon-eventos/static/js/main.57eeb3c2.chunk.js",
+    "main.js.map": "/salon-eventos/static/js/main.57eeb3c2.chunk.js.map",
     "runtime-main.js": "/salon-eventos/static/js/runtime-main.859de009.js",
     "runtime-main.js.map": "/salon-eventos/static/js/runtime-main.859de009.js.map",
-    "static/js/2.ad3693e3.chunk.js": "/salon-eventos/static/js/2.ad3693e3.chunk.js",
-    "static/js/2.ad3693e3.chunk.js.map": "/salon-eventos/static/js/2.ad3693e3.chunk.js.map",
+    "static/js/2.b80c09ea.chunk.js": "/salon-eventos/static/js/2.b80c09ea.chunk.js",
+    "static/js/2.b80c09ea.chunk.js.map": "/salon-eventos/static/js/2.b80c09ea.chunk.js.map",
     "index.html": "/salon-eventos/index.html",
-    "static/css/main.5280ab8c.chunk.css.map": "/salon-eventos/static/css/main.5280ab8c.chunk.css.map",
-    "static/js/2.ad3693e3.chunk.js.LICENSE.txt": "/salon-eventos/static/js/2.ad3693e3.chunk.js.LICENSE.txt",
+    "static/css/main.45a542e1.chunk.css.map": "/salon-eventos/static/css/main.45a542e1.chunk.css.map",
+    "static/js/2.b80c09ea.chunk.js.LICENSE.txt": "/salon-eventos/static/js/2.b80c09ea.chunk.js.LICENSE.txt",
     "static/media/areglo2.c5a0ee56.png": "/salon-eventos/static/media/areglo2.c5a0ee56.png",
     "static/media/globos1.88c0adf1.png": "/salon-eventos/static/media/globos1.88c0adf1.png",
     "static/media/imagen1.a24b2a14.jpg": "/salon-eventos/static/media/imagen1.a24b2a14.jpg",
@@ -34,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.859de009.js",
-    "static/js/2.ad3693e3.chunk.js",
-    "static/css/main.5280ab8c.chunk.css",
-    "static/js/main.55dfa2f9.chunk.js"
+    "static/js/2.b80c09ea.chunk.js",
+    "static/css/main.45a542e1.chunk.css",
+    "static/js/main.57eeb3c2.chunk.js"
   ]
 }
