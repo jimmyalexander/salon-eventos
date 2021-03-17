@@ -71,10 +71,12 @@ export const Areas = () => {
         </div>
         
         <div className="container_icon-whatsaap">
-          <a target='blanck' href="https://api.whatsapp.com/send?phone=34123456789">
+          <a target='blanck' href="https://api.whatsapp.com/send?phone=3232464884">
             <Icon size={'50px'} color={'#00bb2d'} icon={ mdiWhatsapp } className='whatsaap' />
           </a>
         </div>
+
+       
       </section>
       
     </div>

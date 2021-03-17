@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logoimg1 from '../assets/static/imagen2.jpg';
 import logoimg2 from '../assets/static/imagen3.jpg';
 import logoimg3 from '../assets/static/imagen5.jpeg';
@@ -13,7 +13,27 @@ import logoimg11 from '../assets/static/imagen24.jpg';
 import logoimg12 from '../assets/static/imagen25.jpg';
 
 
+import Icon from './Iconos';
+import { mdiArrowUpBox } from '@mdi/js';
+import { useHistory } from 'react-router';
+
 export const Eventos = () => {
+
+  const [ scroll , setScroll] = useState(0);
+  const history = useHistory()
+
+  const handleClick= () => {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth'
+    });
+    history.push('/salon-eventos/');
+    
+  }
+  window.onscroll = function() {
+    setScroll(window.scrollY);
+  };
+
   return (
     <div>
       <div className="container_eventos">
@@ -171,6 +191,9 @@ export const Eventos = () => {
         </div>
         
       </div>
+      <div className="container_arrow-home">
+          <Icon onClick={handleClick} size={'50px'} color={'#ce4257'} icon={ mdiArrowUpBox } className={ scroll > 2500 ? 'arrow_home' : 'no_display'} />
+        </div>
     </div>
   )
 }

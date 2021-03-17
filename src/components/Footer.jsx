@@ -4,6 +4,7 @@ import Icon from './Iconos';
 
 
 export const Footer = () => {
+ 
   return (
     <div>
       <div className="container_footer">

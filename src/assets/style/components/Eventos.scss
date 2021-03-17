@@ -49,6 +49,19 @@
     }
   }
 }
+.container_arrow-home{
+  .arrow_home{
+    padding: 5px;
+    position: fixed;
+    bottom: 20%;
+    right:2%;
+    z-index: 2000;
+    animation: salto 2s ease-in-out infinite;
+  }  
+  .arrow_home:hover{
+    opacity: 0.5;
+  }
+}
 
 @keyframes caer{
   0%{
