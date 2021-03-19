@@ -6,6 +6,7 @@
   width: 100%;
   .reservacion{
     display: flex;
+    flex-wrap: wrap;
     .reservacion_data{
       margin: 20px;
       width: 200px;
