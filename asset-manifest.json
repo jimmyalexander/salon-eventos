@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/salon-eventos/static/css/main.45a542e1.chunk.css",
+    "main.css": "/salon-eventos/static/css/main.d78a9a30.chunk.css",
     "main.js": "/salon-eventos/static/js/main.011a64f1.chunk.js",
     "main.js.map": "/salon-eventos/static/js/main.011a64f1.chunk.js.map",
     "runtime-main.js": "/salon-eventos/static/js/runtime-main.859de009.js",
@@ -8,7 +8,7 @@
     "static/js/2.b80c09ea.chunk.js": "/salon-eventos/static/js/2.b80c09ea.chunk.js",
     "static/js/2.b80c09ea.chunk.js.map": "/salon-eventos/static/js/2.b80c09ea.chunk.js.map",
     "index.html": "/salon-eventos/index.html",
-    "static/css/main.45a542e1.chunk.css.map": "/salon-eventos/static/css/main.45a542e1.chunk.css.map",
+    "static/css/main.d78a9a30.chunk.css.map": "/salon-eventos/static/css/main.d78a9a30.chunk.css.map",
     "static/js/2.b80c09ea.chunk.js.LICENSE.txt": "/salon-eventos/static/js/2.b80c09ea.chunk.js.LICENSE.txt",
     "static/media/areglo2.c5a0ee56.png": "/salon-eventos/static/media/areglo2.c5a0ee56.png",
     "static/media/globos1.88c0adf1.png": "/salon-eventos/static/media/globos1.88c0adf1.png",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.859de009.js",
     "static/js/2.b80c09ea.chunk.js",
-    "static/css/main.45a542e1.chunk.css",
+    "static/css/main.d78a9a30.chunk.css",
     "static/js/main.011a64f1.chunk.js"
   ]
 }
