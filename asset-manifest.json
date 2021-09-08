@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/salon-eventos/static/css/main.3ac0ea69.chunk.css",
+    "main.js": "/salon-eventos/static/js/main.21648cde.chunk.js",
+    "main.js.map": "/salon-eventos/static/js/main.21648cde.chunk.js.map",
+    "runtime-main.js": "/salon-eventos/static/js/runtime-main.3b252b37.js",
+    "runtime-main.js.map": "/salon-eventos/static/js/runtime-main.3b252b37.js.map",
+    "static/js/2.b6ebd7cf.chunk.js": "/salon-eventos/static/js/2.b6ebd7cf.chunk.js",
+    "static/js/2.b6ebd7cf.chunk.js.map": "/salon-eventos/static/js/2.b6ebd7cf.chunk.js.map",
+    "index.html": "/salon-eventos/index.html",
+    "static/css/main.3ac0ea69.chunk.css.map": "/salon-eventos/static/css/main.3ac0ea69.chunk.css.map",
+    "static/js/2.b6ebd7cf.chunk.js.LICENSE.txt": "/salon-eventos/static/js/2.b6ebd7cf.chunk.js.LICENSE.txt",
+    "static/media/areglo2.c5a0ee56.png": "/salon-eventos/static/media/areglo2.c5a0ee56.png",
+    "static/media/globos1.88c0adf1.png": "/salon-eventos/static/media/globos1.88c0adf1.png",
+    "static/media/imagen1.a24b2a14.jpg": "/salon-eventos/static/media/imagen1.a24b2a14.jpg",
+    "static/media/imagen12.e5d228be.jpg": "/salon-eventos/static/media/imagen12.e5d228be.jpg",
+    "static/media/imagen13.74e6faeb.jpg": "/salon-eventos/static/media/imagen13.74e6faeb.jpg",
+    "static/media/imagen16.94932160.jpg": "/salon-eventos/static/media/imagen16.94932160.jpg",
+    "static/media/imagen17.58fb2a6d.jpg": "/salon-eventos/static/media/imagen17.58fb2a6d.jpg",
+    "static/media/imagen18.5876df83.jpg": "/salon-eventos/static/media/imagen18.5876df83.jpg",
+    "static/media/imagen19.b7a035d9.jpg": "/salon-eventos/static/media/imagen19.b7a035d9.jpg",
+    "static/media/imagen2.5a41c5a0.jpg": "/salon-eventos/static/media/imagen2.5a41c5a0.jpg",
+    "static/media/imagen24.ad869907.jpg": "/salon-eventos/static/media/imagen24.ad869907.jpg",
+    "static/media/imagen25.7c9c206c.jpg": "/salon-eventos/static/media/imagen25.7c9c206c.jpg",
+    "static/media/imagen26.5320cbd5.jpg": "/salon-eventos/static/media/imagen26.5320cbd5.jpg",
+    "static/media/imagen27.345144ee.jpg": "/salon-eventos/static/media/imagen27.345144ee.jpg",
+    "static/media/imagen29.4e1ea328.jpeg": "/salon-eventos/static/media/imagen29.4e1ea328.jpeg",
+    "static/media/imagen3.60613800.jpg": "/salon-eventos/static/media/imagen3.60613800.jpg",
+    "static/media/imagen5.60cb7ef3.jpeg": "/salon-eventos/static/media/imagen5.60cb7ef3.jpeg",
+    "static/media/imagen6.9ccb006a.jpg": "/salon-eventos/static/media/imagen6.9ccb006a.jpg",
+    "static/media/imagen7.8d7939cf.jpg": "/salon-eventos/static/media/imagen7.8d7939cf.jpg",
+    "static/media/imagen8.5c89f6ab.jpeg": "/salon-eventos/static/media/imagen8.5c89f6ab.jpeg",
+    "static/media/ponque1.fdcd3d34.png": "/salon-eventos/static/media/ponque1.fdcd3d34.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b252b37.js",
+    "static/js/2.b6ebd7cf.chunk.js",
+    "static/css/main.3ac0ea69.chunk.css",
+    "static/js/main.21648cde.chunk.js"
+  ]
+}
