@@ -1,0 +1,35 @@
+.container_reservacion{
+  h1{
+    margin-left: 10px;
+  }
+  font-family: 'Viga', sans-serif;
+  width: 100%;
+  .reservacion{
+    display: flex;
+    flex-wrap: wrap;
+    .reservacion_data{
+      margin: 20px;
+      width: 200px;
+      height: 300px;
+      box-shadow: 8px 8px 10px #999,
+                  -8px -8px 10px #eee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #e9c46a;
+      .data{
+        width: 70%;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        height: 70%;
+        position: relative;
+        box-shadow: inset 8px 8px 10px #999,
+                    inset -8px -8px 10px #fff;
+      }
+    }
+  }
+}

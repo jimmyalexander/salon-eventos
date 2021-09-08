@@ -1,0 +1,123 @@
+.title_section{
+  font-family: 'Viga', sans-serif;
+  margin: 40px 10px;
+  border-bottom:  1px solid #f8edeb;;
+  h1{
+    
+  }
+}
+.container_areas{
+  font-family: 'Viga', sans-serif;
+  padding-bottom: 20px;
+  .areas{
+    display: flex;
+    margin-top: 10%;
+    .areas_img{
+      
+      width: 50%;
+      height: 400px ;
+      position: relative;
+      img{
+        width: 40%;
+        height: 200px;
+        position: absolute;
+        border-radius: 2px;
+        box-shadow: 10px 14px 20px #f08080;
+      }
+      .img-house{
+        top: 0; 
+      }
+      .img-home{
+        bottom: 0;
+        left: 40%;
+      }
+      .img-cook{
+        right: 0;
+      }
+      .img-cap{
+        bottom: 0;
+        right:40%;
+      }
+      .img-party{
+        top: 0;
+      }
+      .img-par{
+        bottom: 0;
+        left: 40%;
+      }
+
+    }
+
+    .areas_info{
+      width: 40%;
+      padding: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: center;
+      p{
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+
+
+   .container_icon-whatsaap{
+    .whatsaap{
+      background: white;
+      border-radius: 50%;
+      padding: 5px;
+      position: fixed;
+      bottom: 5%;
+      right:2%;
+      z-index: 2000;
+      opacity: .5;
+      box-shadow: 2px 2px 20px #555;
+    }  
+  }
+   
+}
+
+
+
+@keyframes salto{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0px);
+
+  }
+}
+
+@media (min-width: 200px) and (max-width: 500px){
+  .container_areas{
+    .areas{
+      .areas_img{
+        height: 260px;
+        img{
+          
+          height: 130px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 501px) and (max-width: 576px){
+  .container_areas{
+    .areas{
+      .areas_img{
+        height: 260px;
+        img{
+          
+          height: 130px;
+        }
+      }
+    }
+  }
+}
