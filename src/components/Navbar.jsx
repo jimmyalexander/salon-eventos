@@ -1,17 +1,22 @@
-import React, { useState } from "react"
+import React, { useContext, useState } from "react"
+import {useParams} from 'react-router-dom'
 import { mdiMicrosoftXboxControllerMenu, mdiClose } from "@mdi/js"
 import Icon from "./Iconos"
+import { EventContext } from "../containers/EventContext" 
 import { Link } from "react-router-dom"
 
 export const Navbar = () => {
-  const [burguerActive, setBurguerActive] = useState(false)
+  const [burguerActive, setBurguerActive] = useState(false);
+  const {scroll} = useContext(EventContext);
+  
 
+  
   const clickBurguer = () => {
     setBurguerActive(!burguerActive)
   }
   return (
     <div>
-      <div className="container_nav">
+      <div className={ scroll >1 ?'container_nav fix': 'container_nav' }>
         <nav>
           <div className="container_burguer">
             <Icon
@@ -30,11 +35,19 @@ export const Navbar = () => {
               size={"40px"}
               icon={mdiClose}
             />
-            <Link to="/salon-eventos/">Inicio</Link>
+            {
+                !window.location.pathname.includes('agenda')?''
+                : <Link to="/salon-eventos/">Inicio</Link>
+            
+            }
 
-            <Link className="agenda" to="/salon-eventos/agenda">
-              Agenda
-            </Link>
+            {
+              window.location.pathname.includes('agenda')?''
+              : <Link className="agenda" to="/salon-eventos/agenda">
+                  Agenda
+                </Link>
+            }
+           
 
             <a
               href="mailto:jkastiblanco@gmail.com"

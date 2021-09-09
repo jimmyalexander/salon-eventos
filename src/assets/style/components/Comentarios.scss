@@ -97,6 +97,7 @@
             margin-top: 20px;
           }
           input{
+            font-weight: bold;
             margin-top: 5px;
             border-radius: 5px;
             background: #c1d2ce;
@@ -107,17 +108,18 @@
             height: 30px;
             background: #fec5bb;
             color: white;
-            padding: 0 10px;
+            padding:  10px;
           }
 
           textarea{
+            font-weight: bold;
             border: none;
             outline: none;
             height: 50px; 
             margin-top: 10px;
             border-radius: 5px;
             background: #fec5bb;
-            padding: 0 10px;
+            padding: 10px;
 
             color: white;
             box-shadow: inset 9px 9px 12px #8b9794,

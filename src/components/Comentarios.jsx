@@ -3,14 +3,17 @@ import { mdiStarSettings, mdiCloseThick  } from '@mdi/js';
 import Icon from './Iconos';
 //import { useCounter } from '../CustomHooks/UseCounter';
 import { db } from '../firebase/firebase';
+import { Alert } from 'react-bootstrap';
+import Swal from 'sweetalert2';
 
 export const Comentarios = () => {
+
   const [memorycount, setMemorycount] = useState(0);
   const [puntajeDado, setPuntajeDado] = useState(0);
   const [form, setForm] = useState({
     comentario: '',
     correo: '',
-    usuario: ''
+    usuario: '',
   })
   const [comentarios, setComentarios] = useState([]);
   const [selectStar, setSelectStar] = useState(false);
@@ -114,22 +117,20 @@ export const Comentarios = () => {
     })
   }
   const handleSubmit = (e) => {
-    
     e.preventDefault();
- 
+    const {comentario, correo, usuario} = form;
     db.collection("comentarios").add({
-      comentario: form.comentario,
-      correo: form.correo,
-      usuario: form.usuario
+      comentario: comentario,
+      correo: correo,
+      usuario: usuario,
     })
     .then((docRef) => {
-      console.log("Document written with ID: ", docRef.id);
       setEscribirComentario(!escribirComentario);
 
       setForm({
         comentario: '',
         correo: '',
-        usuario: ''
+        usuario: '',
       }) 
 
       setSelectStar(false);
@@ -148,7 +149,14 @@ export const Comentarios = () => {
           conteo: memorycount + puntajeDado
       })
 
-    
+      Swal.fire({
+        position: 'center-center',
+        icon: 'success',
+        title: '¡¡Gracias por tu opinion!!.',
+        text: 'Pronto publicaremos tu comentario',
+        showConfirmButton: false,
+        timer: 2500
+      })  
   
   }
 
@@ -184,7 +192,7 @@ export const Comentarios = () => {
                       </div>
                     )
                   })
-                }
+              }
 
 
               <div className='crear_comentario'>

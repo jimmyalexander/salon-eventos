@@ -61,6 +61,15 @@
   
 
 }
+.fix{
+  position: fixed;
+  width: 100%;
+  background: #ce4257;
+  z-index: 1500;
+  height: 50px;
+  box-shadow: 2px 5px 7px #641c27;
+  transition:  all 1s ease;
+}
 .no_display{
   display: none;
 }
